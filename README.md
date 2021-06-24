@@ -6,7 +6,7 @@ Route (id, date, Bus (oneToOne), route (as String ex. Berlin / Paris / Rome))
 The search engine displays the available courses on the given day based on the date, start and end stops.
 
 Application has one endpiont:
-GET - get route with parameters "http=//localhost:8080/{date}/{startStop}/{endStop}"
+* GET - get route with parameters "http=//localhost:8080/{date}/{startStop}/{endStop}"
 
 
 ## The search engine can be expanded by :
